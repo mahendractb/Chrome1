@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="936433" started-at="2017-07-15T07:24:47Z" finished-at="2017-07-15T07:40:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="936433" started-at="2017-07-15T07:24:47Z" finished-at="2017-07-15T07:40:24Z">
+      <class name="P1.Coperator">
+        <test-method status="PASS" signature="M2()[pri:0, instance:P1.Coperator@204f30ec]" name="M2" is-config="true" duration-ms="18672" started-at="2017-07-15T15:24:47Z" finished-at="2017-07-15T15:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- M2 -->
+        <test-method status="PASS" signature="T1()[pri:0, instance:P1.Coperator@204f30ec]" name="T1" duration-ms="915362" started-at="2017-07-15T15:25:06Z" finished-at="2017-07-15T15:40:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T1 -->
+        <test-method status="PASS" signature="T4()[pri:0, instance:P1.Coperator@204f30ec]" name="T4" is-config="true" duration-ms="2386" started-at="2017-07-15T15:40:21Z" finished-at="2017-07-15T15:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T4 -->
+      </class> <!-- P1.Coperator -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

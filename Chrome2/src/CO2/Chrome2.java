@@ -183,7 +183,7 @@ public class Chrome2 {
 		Select subp=new Select(driver.findElement(By.id("ddlFrmSubPlace")));
 		List<WebElement> sp=subp.getOptions();
 		System.out.println(sp.size());
-							for(int j=0;j<sp.size();j++){
+							/*for(int j=0;j<sp.size();j++){
 								subp=new Select(driver.findElement(By.id("ddlFrmSubPlace")));
 								sp=subp.getOptions();
 								System.out.println(sp.get(j).getText());
@@ -246,9 +246,11 @@ public class Chrome2 {
 								
 							}
 		}
-		
+		*/
 	}
+	
 			}
+			
 		}
 
 		p=0;
@@ -319,12 +321,13 @@ public class Chrome2 {
 					Cell c2=r1.getCell(2);
 					System.out.println("c2====="+c2.getDateCellValue());
 					
-					Cell c4=r1.getCell(3);
+					Cell c4=r1.getCell(3);//date difference
 					System.out.println("c4====="+c4.getNumericCellValue());
 					int y=(int)c4.getNumericCellValue();
+					int y1=y+1;
 					s[0]=c.getStringCellValue();
 					s[1]=DDD;
-					s[2]=String.valueOf(y);
+					s[2]=String.valueOf(y1);
 			 }
 			 else
 			 {

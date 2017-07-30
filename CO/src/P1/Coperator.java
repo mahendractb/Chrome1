@@ -324,9 +324,10 @@ public class Coperator {
 					Cell c4=r1.getCell(3);
 					System.out.println("c4====="+c4.getNumericCellValue());
 					int y=(int)c4.getNumericCellValue();
+					int y1=y+1;
 					s[0]=c.getStringCellValue();
 					s[1]=DDD;
-					s[2]=String.valueOf(y);
+					s[2]=String.valueOf(y1);
 			 }
 			 else
 			 {
